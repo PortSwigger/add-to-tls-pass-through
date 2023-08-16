@@ -1,4 +1,3 @@
-# addToTLSPassThrough
 Add To TLS Pass Through Extension
 ============================
 
