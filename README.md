@@ -5,7 +5,7 @@ Add To TLS Pass Through Extension
 
 ---
 This extension adds a new context menu item in the Target, Proxy or Logger tab to add hosts directly to the TLS Pass
-Through setting.
+Through setting. See our blog post about this extension here: https://www.whiteoaksecurity.com/blog/burp-suite-proxy-history-subtractive-scoping/
 
 The extension has the following features: 
 - If you right-click in a message editor context, it will use the item from the message editor.
