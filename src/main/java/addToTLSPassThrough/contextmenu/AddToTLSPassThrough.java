@@ -26,10 +26,10 @@ public class AddToTLSPassThrough implements BurpExtension
 
         api.extension().registerUnloadingHandler(new MyExtensionUnloadHandler());
     }
-    	private class MyExtensionUnloadHandler implements ExtensionUnloadingHandler {
+    private class MyExtensionUnloadHandler implements ExtensionUnloadingHandler {
 		@Override
-		public void extensionUnloaded() {
-			logging.logToOutput("Extension was unloaded.");
-		}
+	public void extensionUnloaded() {
+            logging.logToOutput("Extension was unloaded.");
 	}
+    }
 }
