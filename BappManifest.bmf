@@ -2,12 +2,12 @@ Uuid: db62b6a29eb24765a9225890b3ad769b
 ExtensionType: 1
 Name: Add to TLS Pass Through
 RepoName: add-to-tls-pass-through
-ScreenVersion: 1.0.0
-SerialVersion: 1
+ScreenVersion: 1.0.1
+SerialVersion: 2
 MinPlatformVersion: 4
 ProOnly: False
 Author: Karl Schuttler
 ShortDescription: Adds a context menu item to quickly add hosts to TLS pass through.
-EntryPoint: build/libs/add-to-tls-pass-through-1.0.0.jar
+EntryPoint: build/libs/add-to-tls-pass-through-1.0.1.jar
 BuildCommand: ./gradlew jar
 SupportedProducts: Pro, Community
